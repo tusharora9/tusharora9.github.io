@@ -100,12 +100,12 @@ figcaption { color:var(--muted); font-size:.82rem; padding:.85rem 1rem 1rem; }
 
   <section class="figure-grid" aria-label="Neuroscience imagery">
     <figure>
-      <img src="https://www.nhmrc.gov.au/sites/default/files/images/Case%20studies/Golgi-stained-neurons-resized.jpg" alt="Golgi-stained neurons with branching dendrites" loading="lazy">
-      <figcaption>Neural structure provides the foundation for understanding circuit function. Image: NHMRC, “A foundation for neuroscience.”</figcaption>
+      <img src="https://cdn.shopify.com/s/files/1/0771/1916/0562/files/Video-BasicFP.png?v=1764365765&width=1920" alt="Freely moving mouse connected to a fiber photometry recording rig" loading="lazy">
+      <figcaption>In-vivo fiber photometry links fluorescent neural signals to behavior in freely moving animals. Image: <a href="https://neuro.doriclenses.com/pages/fp-solution-page">Doric Lenses</a>.</figcaption>
     </figure>
     <figure class="small">
-      <img src="https://humanbiology.pressbooks.tru.ca/wp-content/uploads/sites/6/2019/06/Nervous-Tissue-Confocal-Microscopy-2048x2048.jpg" alt="Fluorescent confocal image of nervous tissue" loading="lazy">
-      <figcaption>Fluorescent microscopy reveals the organization of neural tissue. Image: Human Biology, Pressbooks.</figcaption>
+      <img src="https://simba-uw-tf-dev.readthedocs.io/en/latest/_images/Multi_animal5.jpg" alt="Two mice interacting in an arena with colored pose-estimation body markers" loading="lazy">
+      <figcaption>Multi-animal pose estimation makes social interactions measurable through body-point tracking. Image: <a href="https://simba-uw-tf-dev.readthedocs.io/en/latest/Multi_animal_pose.html">SimBA documentation</a>.</figcaption>
     </figure>
   </section>
 
