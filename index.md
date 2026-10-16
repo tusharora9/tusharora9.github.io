@@ -1,5 +1,5 @@
 ---
-title: Tushar Arora - Neuroscientist | Neural Circuits & Behavior
+title: Welcome to My Research Portfolio
 layout: default
 ---
 
@@ -17,7 +17,7 @@ a:hover,a:focus { color:var(--green); }
 .topbar { align-items:center; border-bottom:1px solid var(--line); display:flex; justify-content:space-between; padding:1rem 0; }
 .profile-block { align-items:center; display:flex; gap:.8rem; }
 .profile-photo { border:2px solid var(--cyan); border-radius:50%; height:64px; object-fit:cover; object-position:center top; width:64px; }
-.profile-name { color:var(--ink); font-size:1rem; font-weight:800; }
+.profile-name { color:var(--ink); font-size:1.5rem; font-weight:800; }
 .brand { color:var(--ink); font-weight:800; text-decoration:none; }
 .nav { display:flex; flex-wrap:wrap; gap:1rem; }
 .nav a { font-size:.92rem; text-decoration:none; }
@@ -55,7 +55,7 @@ figcaption { color:var(--muted); font-size:.82rem; padding:.85rem 1rem 1rem; }
 <header class="topbar">
   <div class="profile-block">
     <img class="profile-photo" src="/assets/tushar-arora-profile.png" alt="Portrait of Dr. Tushar Arora">
-    <span class="profile-name">Tushar Arora</span>
+    <span class="profile-name">Tushar Arora . Neuroscientist</span>
   </div>
   <nav class="nav" aria-label="Primary navigation">
     <a href="#research">Research</a>
