@@ -15,6 +15,9 @@ p,li { color:var(--muted); }
 a { color:var(--cyan); }
 a:hover,a:focus { color:var(--green); }
 .topbar { align-items:center; border-bottom:1px solid var(--line); display:flex; justify-content:space-between; padding:1rem 0; }
+.profile-block { align-items:center; display:flex; gap:.8rem; }
+.profile-photo { border:2px solid var(--cyan); border-radius:50%; height:64px; object-fit:cover; object-position:center top; width:64px; }
+.profile-name { color:var(--ink); font-size:1rem; font-weight:800; }
 .brand { color:var(--ink); font-weight:800; text-decoration:none; }
 .nav { display:flex; flex-wrap:wrap; gap:1rem; }
 .nav a { font-size:.92rem; text-decoration:none; }
@@ -46,11 +49,14 @@ figcaption { color:var(--muted); font-size:.82rem; padding:.85rem 1rem 1rem; }
 .skills { display:flex; flex-wrap:wrap; gap:.5rem; padding:0; }
 .skills li { background:var(--panel); border:1px solid var(--line); border-radius:999px; list-style:none; padding:.35rem .7rem; }
 .footer { border-top:1px solid var(--line); margin-top:4rem; padding:2rem 0 3rem; }
-@media(max-width:700px) { .topbar { align-items:flex-start; flex-direction:column; gap:.8rem; } .hero { min-height:auto; padding-top:3rem; } .figure-grid { grid-template-columns:1fr; } }
+@media(max-width:700px) { .topbar { align-items:flex-start; flex-direction:column; gap:.8rem; } .profile-photo { height:56px; width:56px; } .hero { min-height:auto; padding-top:3rem; } .figure-grid { grid-template-columns:1fr; } }
 </style>
 
 <header class="topbar">
-  <a class="brand" href="/">Tushar Arora Lab</a>
+  <div class="profile-block">
+    <img class="profile-photo" src="/assets/tushar-arora-profile.png" alt="Portrait of Dr. Tushar Arora">
+    <span class="profile-name">Tushar Arora</span>
+  </div>
   <nav class="nav" aria-label="Primary navigation">
     <a href="#research">Research</a>
     <a href="#methods">Methods</a>
@@ -67,11 +73,11 @@ figcaption { color:var(--muted); font-size:.82rem; padding:.85rem 1rem 1rem; }
     <p class="lede">I am Dr. Tushar Arora, a neuroscientist studying neural circuits, neuromodulator dynamics, and disease-relevant behavior using integrated experimental and computational approaches.</p>
     <div class="button-row">
       <a class="button primary" href="#research">Explore the research</a>
-      <a class="button" href="/assets/Tushar_Arora_CV.pdf">Download CV</a>
+
     </div>
 
     <div class="hero-grid">
-      <div class="panel"><h3>Current position</h3><p><strong>Postdoctoral Research Fellow</strong><br>Ki Goosens Lab<br>Icahn School of Medicine at Mount Sinai</p></div>
+      <div class="panel"><h3>Current position</h3><p><strong>Postdoctoral Research Fellow</strong><br>Icahn School of Medicine at Mount Sinai</p></div>
       <div class="panel"><h3>Research lens</h3><p>From molecular mechanisms to neural circuits, behavior, and quantitative analysis.</p></div>
       <div class="panel"><h3>Based in</h3><p>Manhattan, New York<br><a href="mailto:tushar.arora@mssm.edu">tushar.arora@mssm.edu</a></p></div>
     </div>
@@ -120,14 +126,14 @@ figcaption { color:var(--muted); font-size:.82rem; padding:.85rem 1rem 1rem; }
   </section>
 
   <section id="about">
-    <h2>About Dr. Arora</h2>
+    <h2>About Tushar </h2>
     <div class="timeline">
       <article><span class="date">2025–present</span><br><strong>Postdoctoral Research Fellow</strong> · Icahn School of Medicine at Mount Sinai</article>
       <article><span class="date">2022–2025</span><br><strong>Postdoctoral Research Fellow</strong> · Albert Einstein College of Medicine</article>
       <article><span class="date">2012–2020</span><br><strong>PhD in Neuroscience</strong> · National Brain Research Centre, India</article>
       <article><span class="date">2010–2012</span><br><strong>M.Pharmacy in Pharmacology</strong> · Jamia Hamdard, New Delhi</article>
     </div>
-    <p><a href="/assets/Tushar_Arora_CV.pdf">Read the full CV →</a></p>
+  
   </section>
 
   <section id="contact">
