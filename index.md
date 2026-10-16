@@ -1,5 +1,5 @@
 ---
-title: Welcome to My Research Portfolio
+title: Tushar Arora
 layout: default
 ---
 
@@ -55,7 +55,7 @@ figcaption { color:var(--muted); font-size:.82rem; padding:.85rem 1rem 1rem; }
 <header class="topbar">
   <div class="profile-block">
     <img class="profile-photo" src="/assets/tushar-arora-profile.png" alt="Portrait of Dr. Tushar Arora">
-    <span class="profile-name">Tushar Arora . Neuroscientist</span>
+    <span class="profile-name">Welcome to My Research Portfolio</span>
   </div>
   <nav class="nav" aria-label="Primary navigation">
     <a href="#research">Research</a>
