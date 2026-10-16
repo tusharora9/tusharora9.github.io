@@ -18,6 +18,7 @@ a:hover,a:focus { color:var(--green); }
 .profile-block { align-items:center; display:flex; gap:.8rem; }
 .profile-photo { border:2px solid var(--cyan); border-radius:50%; height:64px; object-fit:cover; object-position:center top; width:64px; }
 .profile-name { color:var(--ink); font-size:1.5rem; font-weight:800; }
+.site-title { color:var(--ink); font-size:2.5rem; margin:2rem 0 1rem; }
 .brand { color:var(--ink); font-weight:800; text-decoration:none; }
 .nav { display:flex; flex-wrap:wrap; gap:1rem; }
 .nav a { font-size:.92rem; text-decoration:none; }
@@ -67,6 +68,7 @@ figcaption { color:var(--muted); font-size:.82rem; padding:.85rem 1rem 1rem; }
 </header>
 
 <main>
+  <h1 class="site-title">Tushar Arora</h1>
   <section class="hero">
     <p class="kicker">Neural circuits · behavior · disease mechanisms</p>
     <h1>Understanding how the brain turns social experience into behavior.</h1>
