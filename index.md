@@ -1,5 +1,5 @@
 ---
-title: Tushar Arora
+title: Tushar Arora - Neuroscientist | Neural Circuits & Behavior
 layout: default
 ---
 
@@ -17,8 +17,7 @@ a:hover,a:focus { color:var(--green); }
 .topbar { align-items:center; border-bottom:1px solid var(--line); display:flex; justify-content:space-between; padding:1rem 0; }
 .profile-block { align-items:center; display:flex; gap:.8rem; }
 .profile-photo { border:2px solid var(--cyan); border-radius:50%; height:64px; object-fit:cover; object-position:center top; width:64px; }
-.profile-name { color:var(--ink); font-size:1.5rem; font-weight:800; }
-.site-title { color:var(--ink); font-size:2.5rem; margin:2rem 0 1rem; }
+.profile-name { color:var(--ink); font-size:1rem; font-weight:800; }
 .brand { color:var(--ink); font-weight:800; text-decoration:none; }
 .nav { display:flex; flex-wrap:wrap; gap:1rem; }
 .nav a { font-size:.92rem; text-decoration:none; }
@@ -56,7 +55,7 @@ figcaption { color:var(--muted); font-size:.82rem; padding:.85rem 1rem 1rem; }
 <header class="topbar">
   <div class="profile-block">
     <img class="profile-photo" src="/assets/tushar-arora-profile.png" alt="Portrait of Dr. Tushar Arora">
-    <span class="profile-name">Welcome_To_My_Research_Portfolio</span>
+    <span class="profile-name">Tushar Arora</span>
   </div>
   <nav class="nav" aria-label="Primary navigation">
     <a href="#research">Research</a>
@@ -68,7 +67,6 @@ figcaption { color:var(--muted); font-size:.82rem; padding:.85rem 1rem 1rem; }
 </header>
 
 <main>
-  <h1 class="site-title">Tushar Arora</h1>
   <section class="hero">
     <p class="kicker">Neural circuits · behavior · disease mechanisms</p>
     <h1>Understanding how the brain turns social experience into behavior.</h1>
@@ -102,10 +100,14 @@ figcaption { color:var(--muted); font-size:.82rem; padding:.85rem 1rem 1rem; }
 
   <section class="figure-grid" aria-label="Neuroscience imagery">
     <figure>
+      <img src="https://www.nhmrc.gov.au/sites/default/files/images/Case%20studies/Golgi-stained-neurons-resized.jpg" alt="Golgi-stained neurons with branching dendrites" loading="lazy">
+      <figcaption>Neural structure provides the foundation for understanding circuit function. Image: NHMRC, “A foundation for neuroscience.”</figcaption>
       <img src="https://cdn.shopify.com/s/files/1/0771/1916/0562/files/Video-BasicFP.png?v=1764365765&width=1920" alt="Freely moving mouse connected to a fiber photometry recording rig" loading="lazy">
       <figcaption>In-vivo fiber photometry links fluorescent neural signals to behavior in freely moving animals. Image: <a href="https://neuro.doriclenses.com/pages/fp-solution-page">Doric Lenses</a>.</figcaption>
     </figure>
     <figure class="small">
+      <img src="https://humanbiology.pressbooks.tru.ca/wp-content/uploads/sites/6/2019/06/Nervous-Tissue-Confocal-Microscopy-2048x2048.jpg" alt="Fluorescent confocal image of nervous tissue" loading="lazy">
+      <figcaption>Fluorescent microscopy reveals the organization of neural tissue. Image: Human Biology, Pressbooks.</figcaption>
       <img src="https://simba-uw-tf-dev.readthedocs.io/en/latest/_images/Multi_animal5.jpg" alt="Two mice interacting in an arena with colored pose-estimation body markers" loading="lazy">
       <figcaption>Multi-animal pose estimation makes social interactions measurable through body-point tracking. Image: <a href="https://simba-uw-tf-dev.readthedocs.io/en/latest/Multi_animal_pose.html">SimBA documentation</a>.</figcaption>
     </figure>
@@ -135,7 +137,7 @@ figcaption { color:var(--muted); font-size:.82rem; padding:.85rem 1rem 1rem; }
       <article><span class="date">2012–2020</span><br><strong>PhD in Neuroscience</strong> · National Brain Research Centre, India</article>
       <article><span class="date">2010–2012</span><br><strong>M.Pharmacy in Pharmacology</strong> · Jamia Hamdard, New Delhi</article>
     </div>
-  
+
   </section>
 
   <section id="contact">
