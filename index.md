@@ -122,7 +122,7 @@ figcaption { color:var(--muted); font-size:.82rem; padding:.85rem 1rem 1rem; }
 
   <section id="publications">
     <h2>Selected publications</h2>
-    <article class="publication"><p><span class="date">2026</span> · Carta I, Arora T, Bambah-Mukku D, Autry AE. <strong>Molecular and functional heterogeneity of hypothalamic preoptic neurons.</strong> <em>Neuroscience & Biobehavioral Reviews.</em></p></article>
+    <article class="publication"><p><span class="date">2026</span> · Carta I, Arora T, Bambah-Mukku D, Autry AE. <a href="https://doi.org/10.1016/j.neubiorev.2026.106891"><strong>Molecular and functional heterogeneity of hypothalamic preoptic neurons.</strong></a> <em>Neuroscience & Biobehavioral Reviews.</em></p></article>
     <article class="publication"><p><span class="date">2025</span> · Carta I, Arora T, et al. <a href="https://doi.org/10.1038/s41467-025-59352-7"><strong>Sex-specific hypothalamic neural projection activity drives caregiving in mice.</strong></a> <em>Nature Communications.</em></p></article>
     <article class="publication"><p><span class="date">2025</span> · Babaev B, Goyal S, Arora T, et al. <a href="https://doi.org/10.1038/s44277-024-00020-x"><strong>A novel method for estrous cycle staging using supervised object detection.</strong></a> <em>NPP—Digital Psychiatry and Neuroscience.</em></p></article>
     <article class="publication"><p><span class="date">2023</span> · Arora T, Sharma SK. <a href="https://doi.org/10.1155/2023/1753791"><strong>Cyclic glycine-proline improves memory and reduces amyloid plaque load in APP/PS1 transgenic mouse model of Alzheimer’s disease.</strong></a> <em>International Journal of Alzheimer’s Disease.</em></p></article>
